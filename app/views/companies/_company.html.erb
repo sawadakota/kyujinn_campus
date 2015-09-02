@@ -1,0 +1,7 @@
+<%= link_to company_path(company.id) do %>
+  <div class ="company clearfix">
+    <div class = "name"><%= company.name %></div>
+    <div class = "detail company_avatar"><img src ="<%= company.avatar.url(:thumb) %>"></div>
+    <div class = "detail">時給<br><%= company.jikyu %><br>場所<br><%= company.location %></div>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.detail {
+  float: left;
+}
